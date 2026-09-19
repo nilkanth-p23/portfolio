@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nilkanth Patel | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#home" class="logo">
+    <span class="logo-text">Nilkanth Patel</span>
+  </a>
+  <ul id="navLinks">
+    <li><a href="#home"       class="nav-a">Home</a></li>
+    <li><a href="#about"      class="nav-a">About</a></li>
+    <li><a href="#experience" class="nav-a">Experience</a></li>
+    <li><a href="#skills"     class="nav-a">Skills</a></li>
+    <li><a href="#projects"   class="nav-a">Projects</a></li>
+  </ul>
+  <a href="#contact" class="btn-nav">Contact Me</a>
+  <button id="ham" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <p class="hero-pill">aspiring engineer, shipping data-driven products</p>
+    <h1 class="hero-name">
+      <span>Nilkanth</span>
+      <span>Patel</span>
+    </h1>
+    <p class="hero-sub">Hi, I'm a <span id="flipText" class="grad"></span><span class="cursor-blink">|</span></p>
+    <p class="hero-bio">Second-year Computer Engineering student at Rutgers University with a passion for data-driven insights and software development.</p>
+    <div class="hero-btns">
+        <a href="#projects" class="btn-primary">My Projects</a>
+        <a href="#contact"  class="btn-ghost">Get In Touch</a>
+        <a href="files/NilkanthPatel_MasterResume.pdf" target="_blank" rel="noopener" class="btn-ghost">Resume/CV</a>
+    </div>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/nilkanthpatel23/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/nilkanth-p23"              target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:nilkanthpat23&#64;gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>scroll</span><i class="fa-solid fa-chevron-down"></i></div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="about-top">
+    <p class="label">— About Me</p>
+    <h2>A Little About Me</h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-body">
+      <div class="status-row">
+        <span class="status-pill"><span class="status-dot"></span>Open to internships</span>
+        <span class="status-pill">New Jersey / U.S.</span>
+      </div>
+
+      <p>Second-year <strong>Computer Engineering</strong> student at <strong>Rutgers University</strong> with a startup-scrappy mindset and a growing passion for <strong>data-driven, AI-integrated</strong> software.</p>
+
+      <p>I lead operations at <strong>Code Ninjas</strong>, where I now serve as <strong>Center Director</strong> — running <strong>8–10 class blocks a week</strong> and managing a team of <strong>4–7 Senseis</strong> at a <strong>7:1 student-to-instructor ratio</strong>. I started out as a <strong>Coding Sensei</strong>, teaching kids JavaScript and Godot through the CREATE curriculum.</p>
+
+      <p>Before that, I completed an engineering internship with <strong>NJIT's STEMx</strong> program, where I cut design iteration time from <strong>2 weeks to 5 days</strong> and shipped <strong>3 production-ready prototypes</strong> across 3D printing, laser cutting, and robotics.</p>
+
+      <div class="callout">
+        <i class="fa-solid fa-star-of-life"></i>
+        <span>Deeply committed to my work — investing creativity and precision into every project.</span>
+      </div>
+    </div>
+
+    <div class="ai-widget">
+      <div class="ai-bar">
+        <div class="ai-bar-left">
+          <span class="ai-dot"></span>
+          <span class="ai-title">Ask about me</span>
+        </div>
+        <span class="ai-badge">AI</span>
+      </div>
+
+      <div class="ai-messages" id="aiMessages">
+        <div class="ai-msg ai-bot">
+          Hi there! I'm an AI assistant trained on Nilkanth’s background, projects, and skills. Ask me anything to learn more about his work like <em>"What languages does he know?"</em> or <em>"Tell me about his latest project."</em>
+        </div>
+      </div>
+
+      <div class="ai-suggestions" id="aiSuggestions">
+        <button type="button" class="ai-chip" data-q="What are his technical skills?">Skills</button>
+        <button type="button" class="ai-chip" data-q="Tell me about his projects">Projects</button>
+        <button type="button" class="ai-chip" data-q="What's his work experience?">Experience</button>
+        <button type="button" class="ai-chip" data-q="How can I contact him?">Contact</button>
+      </div>
+
+      <form class="ai-input-row" id="aiForm">
+        <input type="text" id="aiInput" placeholder="Ask a question…" autocomplete="off" maxlength="200">
+        <button type="submit" aria-label="Send"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="experience alt">
+  <p class="label">— Where I've Worked</p>
+  <h2>Experience</h2>
+  <p class="sub">Roles where I've put engineering and leadership to work.</p>
+
+  <div class="exp-list">
+
+    <article class="exp-card">
+      <div>
+        <div class="exp-head">
+          <span class="exp-org">Code Ninjas</span>
+          <span class="exp-loc"><i class="fa-solid fa-location-dot"></i> Marlton, NJ</span>
+        </div>
+        <div class="exp-roles">
+          <div class="exp-role">
+            <p class="exp-role-title">Center Director</p>
+            <p class="exp-role-date">March 2026 – Present</p>
+            <ul>
+              <li>Directed daily operations of a dojo running 8–10 class blocks per week across 4 days.</li>
+              <li>Managed a team of 4–7 Senseis staffed to maintain a 7:1 student-to-instructor ratio.</li>
+              <li>Drove retention and new sign-ups by building parent relationships and converting trial-session inquiries into long-term enrollments.</li>
+            </ul>
+          </div>
+          <div class="exp-role">
+            <p class="exp-role-title">Coding Sensei (Instructor)</p>
+            <p class="exp-role-date">October 2025 – March 2026</p>
+            <ul>
+              <li>Taught coding and STEM concepts through the CREATE curriculum — block-based coding (Microsoft MakeCode) through JavaScript and GDScript (Godot) as students advanced.</li>
+              <li>Sustained student motivation by creating an engaging dojo environment and delivering constructive feedback across sessions, camps, and workshops.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="exp-stats">
+        <div>
+          <div class="exp-stat-num">75–110</div>
+          <div class="exp-stat-label">Students Managed</div>
+        </div>
+        <div>
+          <div class="exp-stat-num">4–7</div>
+          <div class="exp-stat-label">Senseis Led</div>
+        </div>
+        <div>
+          <div class="exp-stat-num">7:1</div>
+          <div class="exp-stat-label">Student : Instructor</div>
+        </div>
+        <div>
+          <div class="exp-stat-num">8–10</div>
+          <div class="exp-stat-label">Class Blocks / Week</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="exp-card">
+      <div>
+        <div class="exp-head">
+          <span class="exp-org">NJIT STEMx Applied Engineering Technology Program</span>
+          <span class="exp-loc"><i class="fa-solid fa-location-dot"></i> Newark, NJ</span>
+        </div>
+        <div class="exp-roles">
+          <div class="exp-role">
+            <p class="exp-role-title">Engineering Intern</p>
+            <p class="exp-role-date">July 2024</p>
+            <ul>
+              <li>Completed a hands-on internship applying rapid prototyping, robotics, and electronics to real-world design challenges in a fast-paced, cross-functional environment.</li>
+              <li>Cut design iteration time from 2 weeks to 5 days by systematizing rapid prototyping workflows across 3D printing, laser cutting, and robotics.</li>
+              <li>Delivered 3 production-ready prototypes and presented CAD-modeled work to peers and mentors, translating technical concepts for mixed technical/non-technical audiences.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="exp-stats">
+        <div>
+          <div class="exp-stat-num">2wk→5d</div>
+          <div class="exp-stat-label">Iteration Time Cut</div>
+        </div>
+        <div>
+          <div class="exp-stat-num">3</div>
+          <div class="exp-stat-label">Prototypes Delivered</div>
+        </div>
+        <div>
+          <div class="exp-stat-num">30+</div>
+          <div class="exp-stat-label">Peers & Mentors Presented To</div>
+        </div>
+        <div>
+          <div class="exp-stat-num">3</div>
+          <div class="exp-stat-label">Fabrication Methods</div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills alt">
+  <p class="label">— What I Know</p>
+  <h2>My Skills</h2>
+  <p class="sub">Technologies and tools I work with...</p>
+
+  <div class="skill-groups">
+
+    <div class="skill-group">
+      <div class="group-label"><i class="fa-solid fa-code"></i> Languages</div>
+      <div class="skills-grid">
+        <div class="sk"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5"><span>HTML</span></div>
+        <div class="sk"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3"><span>CSS</span></div>
+        <div class="sk"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></div>
+        <div class="sk"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python"><span>Python</span></div>
+        <div class="sk"><img src="icons/sql.png" alt="SQL"><span>SQL</span></div>
+        <div class="sk"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" alt="MATLAB"><span>MATLAB</span></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <div class="group-label"><i class="fas fa-network-wired"></i> Frameworks</div>
+      <div class="skills-grid">
+        <div class="sk"><img src="icons/pandas.png" alt="Pandas"><span>Pandas</span></div>
+        <div class="sk"><img src="icons/numpy.png" alt="NumPy"><span>NumPy</span></div>
+        <div class="sk"><img src="icons/matplotlib.png" alt="Matplotlib"><span>Matplotlib</span></div>
+        <div class="sk"><img src="icons/nextjs.png" alt="Next.js"><span>Next.js</span></div>
+        <div class="sk"><img src="icons/nextauthjs.png" alt="NextAuth.js"><span>NextAuth.js</span></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <div class="group-label"><i class="fa-solid fa-database"></i> AI &amp; Data</div>
+      <div class="skills-grid">
+        <div class="sk"><img src="icons/postgresql.png" alt="PostgreSQL"><span>PostgreSQL</span></div>
+        <div class="sk"><img src="icons/powerbi.png" alt="Power BI"><span>Power BI</span></div>
+        <div class="sk"><img src="icons/tableau.png" alt="Tableau"><span>Tableau</span></div>
+        <div class="sk"><img src="icons/excel.png" alt="Excel"><span>Microsoft Excel</span></div>
+        <div class="sk"><img src="icons/jupyter.png" alt="Jupyter"><span>Jupyter</span></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <div class="group-label"><i class="fa-solid fa-screwdriver-wrench"></i> Infrastructure & Tools</div>
+      <div class="skills-grid">
+        <div class="sk"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code"><span>VS Code</span></div>
+        <div class="sk"><img src="icons/vercel.png" alt="Vercel"><span>Vercel</span></div>
+        <div class="sk"><img src="icons/git_icon.png" alt="Git"><span>Git</span></div>
+        <div class="sk"><img src="icons/github.png" alt="Github"><span>Github</span></div>
+        <div class="sk"><img src="icons/adobeCC.png" alt="Adobe Creative Suite"><span>Adobe Creative Suite</span></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <div class="group-label"><i class="fa-solid fa-cube"></i> CAD</div>
+      <div class="skills-grid">
+        <div class="sk"><img src="icons/autocad.png" alt="AutoCAD"><span>AutoCAD</span></div>
+        <div class="sk"><img src="icons/fusion.png" alt="Fusion360"><span>Fusion360</span></div>
+        <div class="sk"><img src="icons/bambulab.png" alt="BambuLab"><span>BambuLab</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <p class="label">— What I've Built</p>
+  <h2>My Projects</h2>
+  <p class="sub">Showcasing my passion for engineering and innovation</p>
+  <div class="proj-grid">
+
+    <article class="proj">
+      <div class="proj-top">
+        <span class="pnum">01</span>
+        <span class="ptag">Engineering</span>
+      </div>
+      <h3>Universal Toy Car</h3>
+      <p class="pdate"><i class="fa-regular fa-calendar"></i> Sept. 2025 – Dec. 2025</p>
+      <p>Spearheaded a four-person team to engineer a 3D-printed electromechanical toy car that met 100% of performance and universal design specifications for the ID3EA course.</p>
+      <div class="pbadges">
+        <span><img src="icons/fusion.png" alt="Fusion 360" class="badge-img">Fusion 360</span>
+        <span><img src="icons/bambulab.png" alt="Bambu Lab" class="badge-img">Bambu Lab</span>
+      </div>
+      <a href="https://github.com/nilkanth-p23/universal-design-proj" target="_blank" rel="noopener" class="psource" aria-label="GitHub"><i class="fa-brands fa-github"></i> Source</a>
+    </article>
+    <article class="proj">
+      <div class="proj-top">
+        <span class="pnum">02</span>
+        <span class="ptag">Engineering</span>
+      </div>
+      <h3>Heat Transfer Analysis</h3>
+      <p class="pdate"><i class="fa-regular fa-calendar"></i> Jan. 2026 – Apr. 2026</p>
+      <p>Spearheaded a five-person team to design and execute six experimental trials comparing conductive heat transfer across stacked metal and nonmetal configurations, validating thermal simulations against hot plate data using MATLAB-generated analysis.</p>
+      <div class="pbadges">
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" alt="MATLAB" class="badge-img">MATLAB</span>
+        <a href="https://github.com/nilkanth-p23/heat-transfer-project" target="_blank" rel="noopener" class="psource" aria-label="GitHub"><i class="fa-brands fa-github"></i> Source</a>
+      </div>
+    </article>
+
+    <article class="proj">
+      <div class="proj-top">
+        <span class="pnum">03</span>
+        <span class="ptag">Data Analysis</span>
+      </div>
+      <h3>Flight Delay & Airline Performance Analysis</h3>
+      <p class="pdate"><i class="fa-regular fa-calendar"></i> Mar. 2026 – Apr. 2026</p>
+      <p>Built an end-to-end analytics pipeline on 5.2M+ U.S. flights using official BTS government data, designing a normalized PostgreSQL database, writing 8 advanced SQL queries, and publishing a 3-page Tableau dashboard that identified Late Aircraft cascading delays as the #1 disruption cause at 41.2% across 6 major carriers.</p>
+      <div class="pbadges">
+        <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" class="badge-img">Python</span>
+        <span><img src="icons/postgresql.png" alt="PostgreSQL" class="badge-img">PostgreSQL</span>
+        <span><img src="icons/sql.png" alt="SQL" class="badge-img">SQL</span>
+        <span><img src="icons/tableau.png" alt="Tableau" class="badge-img">Tableau</span>
+        <a href="https://github.com/nilkanth-p23/flight-delay-analysis" target="_blank" rel="noopener" class="psource" aria-label="GitHub"><i class="fa-brands fa-github"></i> Source</a>
+      </div>
+    </article>
+
+    <article class="proj">
+      <div class="proj-top">
+        <span class="pnum">04</span>
+        <span class="ptag">Full-Stack Web</span>
+      </div>
+      <h3>Spotify Personality</h3>
+      <p class="pdate"><i class="fa-regular fa-calendar"></i> Apr. 2026</p>
+      <p>Built a full-stack music personality web app authenticating users via Spotify OAuth 2.0, engineering 3 Next.js API routes to process top artists, tracks, and playlists, and deploying a responsive multi-page UI on Vercel that analyzes listening history across 8 personality archetypes to generate a shareable music identity profile.</p>
+      <div class="pbadges">
+        <span><img src="icons/nextjs.png" alt="Next.js" class="badge-img">Next.js</span>
+        <span><img src="icons/spotify.png" alt="Spotify API" class="badge-img">Spotify API</span>
+        <span><img src="icons/nextauthjs.png" alt="NextAuth.js" class="badge-img">NextAuth.js</span>
+        <span><img src="icons/vercel.png" alt="Vercel" class="badge-img">Vercel</span>
+        <a href="https://github.com/nilkanth-p23/spotify-personality" target="_blank" rel="noopener" class="psource" aria-label="GitHub"><i class="fa-brands fa-github"></i> Source</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact alt">
+  <div class="contact-left">
+    <p class="label">— Get In Touch</p>
+    <h2>Stay in Touch!</h2>
+    <div class="clinks">
+      <a href="https://www.linkedin.com/in/nilkanthpatel23/" target="_blank" rel="noopener" class="clink"><span class="cicon"><i class="fa-brands fa-linkedin-in"></i></span>LinkedIn</a>
+      <a href="https://github.com/nilkanth-p23"              target="_blank" rel="noopener" class="clink"><span class="cicon"><i class="fa-brands fa-github"></i></span>GitHub</a>
+      <a href="mailto:nilkanthpat23&#64;gmail.com" class="clink"><span class="cicon"><i class="fa-regular fa-envelope"></i></span>Email</a>
+    </div>
+  </div>
+
+  <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+    <input type="hidden" name="access_key" value="db3cd853-3189-473b-a556-6c7a8b87c9c1">
+    <h3>Send a Message</h3>
+    <div class="fg">
+      <label for="fn">Name</label>
+      <input id="fn" name="text" placeholder="Your name" required>
+      <span class="fe" id="fnE"></span>
+    </div>
+    <div class="fg">
+      <label for="fe2">Email</label>
+      <input id="fe2" name="email" placeholder="your@email.com" required>
+      <span class="fe" id="fe2E"></span>
+    </div>
+    <div class="fg">
+      <label for="fm">Message</label>
+      <textarea id="fm" name="message" placeholder="Your message..." required></textarea>
+      <span class="fe" id="fmE"></span>
+    </div>
+    <button type="submit" id="fsub">Send Message <i class="fa-regular fa-paper-plane"></i></button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Built by Nilkanth Patel &copy;<span id="yr"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
