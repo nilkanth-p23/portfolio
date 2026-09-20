@@ -127,7 +127,7 @@ const AI_KNOWLEDGE = [
     },
     {
         keywords: ['name', 'year'],
-        answer: "His name is <strong>Nilkanth Patel</strong>, a <strong>19-year-old</strong> <strong>Computer Engineering</strong> student at <strong>Rutgers University–New Brunswick</strong> focused on building <strong>data-driven systems</strong> and scalable <strong>web applications</strong>. His technical toolkit spans <strong>Languages</strong> like <strong>Python</strong>, <strong>SQL</strong>, and <strong>JavaScript</strong>, paired with <strong>Data & Web</strong> frameworks including <strong>PostgreSQL</strong>, <strong>Next.js</strong>, and <strong>Vercel</strong>. Beyond software development, he pairs developer tools like <strong>Git</strong> and <strong>VS Code</strong> with engineering platforms like <strong>Fusion 360</strong> to design robust, <strong>full-stack solutions</strong>."
+        answer: "His name is <strong>Nilkanth Patel</strong>, a <strong>19-year-old</strong> <strong>Computer Engineering</strong> student at <strong>Rutgers University–New Brunswick</strong> focused on building <strong>data-driven systems</strong> and scalable <strong>web applications</strong>. When he’s not coding in <strong>Python</strong> or building with <strong>Next.js</strong> and <strong>PostgreSQL</strong>, you can find him running runs on the <strong>basketball court</strong> or staying active outdoors. A big music fan, his daily playlist is usually on repeat with <strong>Drake</strong>, <strong>Don Toliver</strong>, and <strong>The Weeknd</strong>."
     },
     {
         keywords: ['react', 'next.js', 'nextjs', 'frontend', 'front-end', 'web dev'],
