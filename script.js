@@ -126,6 +126,10 @@ const AI_KNOWLEDGE = [
         answer: "His stack spans a few areas: <strong>Languages</strong> — Python, SQL, JavaScript, HTML/CSS, MATLAB. <strong>Data</strong> — Pandas, NumPy, PostgreSQL, Tableau, Excel, Jupyter. <strong>Web</strong> — Next.js, NextAuth.js, Vercel. <strong>Tools</strong> — Git, GitHub, VS Code, Adobe Creative Suite, plus CAD tools like Fusion 360 and AutoCAD."
     },
     {
+        keywords: ['name', 'year'],
+        answer: "His name is <strong>Nilkanth Patel</strong>, a <strong>19-year-old</strong> <strong>Computer Engineering</strong> student at <strong>Rutgers University–New Brunswick</strong> focused on building <strong>data-driven systems</strong> and scalable <strong>web applications</strong>. His technical toolkit spans <strong>Languages</strong> like <strong>Python</strong>, <strong>SQL</strong>, and <strong>JavaScript</strong>, paired with <strong>Data & Web</strong> frameworks including <strong>PostgreSQL</strong>, <strong>Next.js</strong>, and <strong>Vercel</strong>. Beyond software development, he pairs developer tools like <strong>Git</strong> and <strong>VS Code</strong> with engineering platforms like <strong>Fusion 360</strong> to design robust, <strong>full-stack solutions</strong>."
+    },
+    {
         keywords: ['react', 'next.js', 'nextjs', 'frontend', 'front-end', 'web dev'],
         answer: "His main frontend work is in <strong>Next.js</strong> — the Spotify Personality app used 3 custom Next.js API routes with NextAuth.js for OAuth, deployed on Vercel."
     },
