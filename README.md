@@ -4,7 +4,6 @@
 
   [![Portfolio Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge&logo=vercel)](https://your-portfolio-link.com)
   [![Rutgers University](https://img.shields.io/badge/Rutgers-Computer%20Engineering-cc0033?style=for-the-badge)](https://rutgers.edu)
-  [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
   <br />
 
