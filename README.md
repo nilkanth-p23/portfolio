@@ -8,7 +8,7 @@
 
   <br />
 
-  ### 🚀 [Explore the Live Website Here](https://your-portfolio-link.com) 🚀
+  ### 🚀 [Explore the Live Website Here](https://www.nilkanthpatel.tech) 🚀
 
   A modern, responsive personal portfolio built with a sleek black & beige aesthetic to showcase my engineering journey, software & data projects, technical capabilities, and an interactive AI chatbot.
 
@@ -72,7 +72,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## 📬 Connect With Me
 
-- **Portfolio:** [https://your-portfolio-link.com](https://your-portfolio-link.com)
+- **Portfolio:** [[https://www.nilkanthpatel.tech](https://www.nilkanthpatel.tech)]
 - **LinkedIn:** [linkedin.com/in/nilkanthpatel23](https://linkedin.com/in/nilkanthpatel23)
 - **GitHub:** [@nilkanth-p23](https://github.com/nilkanth-p23)
 - **Email:** [nilkanthpat23@gmail.com](mailto:nilkanthpat23@gmail.com)
